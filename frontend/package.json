@@ -10,7 +10,7 @@
     "typecheck": "react-router typegen && tsc",
     "openapi": "npx openapi-typescript ./openapi/schema.yml -o ./app/consts/schema.d.ts"
   },
-  "dependencies": {
+  "dependencies": {"dotenv": "^17.2.3",
     "@react-router/express": "^7.9.6",
     "@react-router/fs-routes": "^7.9.6",
     "@react-router/node": "^7.9.2",
